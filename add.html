@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>Add Data</title>
+</head>
+
+<body>
+	<a href="index.php">Home</a>
+	<br/><br/>
+
+	<form action="add.php" method="post" name="form1">
+		<table width="25%" border="0">
+			<tr> 
+				<td>Name</td>
+				<td><input type="text" name="name" value="<?php echo $name;?>"></td>
+			</tr>
+			<tr> 
+				<td>Alamat</td>
+				<td><input type="text" name="alamat" value="<?php echo $alamat;?>"></td>
+			</tr>
+			<tr> 
+				<td>Jenis Kelamin</td>
+				<td><input type="text" name="jenis_kelamin" value="<?php echo $jenis_kelamin;?>"></td>
+			</tr>
+			<tr> 
+				<td>Agama</td>
+				<td><input type="text" name="agama" value="<?php echo $agama;?>"></td>
+			</tr>
+			<tr> 
+				<td></td>
+				<td><input type="submit" name="Submit" value="Add"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+
